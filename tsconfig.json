@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        // "declaration": true, // Uncomment this line to generate type definitions for say an npm package
+        "strict": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "./test/**/*",
+        "assets",
+        "./dist/**/*",
+        "jest.config.ts",
+        "package-lock.json"
+    ]
+}
